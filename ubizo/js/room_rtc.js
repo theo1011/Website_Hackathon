@@ -216,6 +216,10 @@ let toggleScreen = async(e) => {
     }
 }
 
+let buy = async(e) =>{
+    window.location.href = "/buy.html";
+}
+
 let leaveStream = async(e) => {
     e.preventDefault()
 
@@ -254,6 +258,7 @@ document.getElementById('mic-btn').addEventListener('click', toggleMic)
 document.getElementById('screen-btn').addEventListener('click', toggleScreen)
 document.getElementById('join-btn').addEventListener('click', joinStream)
 document.getElementById('leave-btn').addEventListener('click', leaveStream)
+
 
 
 joinRoomInit()

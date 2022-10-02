@@ -204,11 +204,11 @@
     justify-content: center;
     align-items: center;
     border: 2px solid #e27f0e;
-    border-radius: 50%;
+    border-radius: 0%;
     cursor: pointer;
     overflow: hidden;
-    height: 300px;
-    width: 300px;
+    height: 650px;
+    width: 900px;
     background-image: url("/images/logo.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -221,7 +221,7 @@
 }
 
 .video-player video {
-    border-radius: 50%;
+    border-radius: 0%;
 }
 
 @media (max-width: 1400px) {
