@@ -104,7 +104,7 @@ let addBotMessageToDom = (botMessage) => {
 
     let newMessage = `<div class="message__wrapper">
                         <div class="message__body__bot">
-                            <strong class="message__author__bot">🤖 Ubuntu Arts and Culture Bot</strong>
+                            <strong class="message__author__bot">🤖 Ubizo Bot</strong>
                             <p class="message__text__bot">${botMessage}</p>
                         </div>
                     </div>`
